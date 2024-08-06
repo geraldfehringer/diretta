@@ -1,7 +1,8 @@
 # DIRETTA - HiFi-Chain #1
 
+`Speaker:` `DeVore O96 Reference revised with active Subwoofer (RobF)`
+
 ## AMP: Meishu Tonmeister 300b Silver Signature
- `Speaker:` `DeVore O96 Reference revised with active Subwoofer (RobF)`
 
 ```mermaid
 sequenceDiagram
