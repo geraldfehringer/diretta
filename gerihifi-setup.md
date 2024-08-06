@@ -11,7 +11,9 @@ sequenceDiagram
     AN Meishu TM 300B->>Holo May KTE: Analog / RCA
     Note over AN Meishu TM 300B,Holo May KTE: Cable: <br> Power: GigaWatt
     AN Meishu TM 300B->>Abbas Audio 3.2SE: Analog / RCA
+    Note over AN Meishu TM 300B,Abbas Audio 3.2SE: Cable: <br> Power: GigaWatt
     Holo May KTE->>Constellation Mini SE: USB (Titanis)
+    Note over Constellation Mini SE,Holo May KTE: Cable: <br> Power: GigaWatt
     Abbas Audio 3.2SE->>Constellation Mini SE: SPDIF / COAX
     Lumin U1->>Abbas Audio 3.2SE: SPDIF / COAX
     Lumin U1->>Holo May KTE: AES / EBU
