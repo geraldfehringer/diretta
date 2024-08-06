@@ -1,4 +1,4 @@
-# Setup HiFi-Chain #1
+# DIRETTA - HiFi-Chain #1
 
 ```mermaid
 sequenceDiagram
