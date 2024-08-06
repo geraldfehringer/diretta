@@ -2,6 +2,8 @@
 
 `Speaker:` `DeVore O96 Reference - complete rebuild with active Subwoofer (RobF)`
 
+`LAN-Switch Chaining:` `Power of Ethernet <> OXCO <> Paul Pang Dual`
+
 ## AMP: Meishu Tonmeister 300b Silver Signature
 
 ```mermaid
