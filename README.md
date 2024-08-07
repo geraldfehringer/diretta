@@ -1,5 +1,5 @@
 # diretta
-All about my diretta audio protocol, journey
+All about my diretta audio protocol journey!
 
 ## research
 
