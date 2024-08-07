@@ -25,12 +25,12 @@ sequenceDiagram
     Note over AN Meishu TM 300B,Holo May KTE: Cable: Audiomica Red Ref Rhod Lux<br> Power: GigaWatt LS-1 Mk3+
     AN Meishu TM 300B->>Abbas Audio 3.2SE: Analog / RCA
     Note over AN Meishu TM 300B,Abbas Audio 3.2SE: Cable: Luxman JPR-1500<br> Power: Abbas Cable
-    Holo May KTE->>Constellation Mini SE: USB (Titanis)
-    Note over Constellation Mini SE,Holo May KTE: Cable: Signal Lynx Ref USB2.0<br> Power: Ferrum Hypsos
     Abbas Audio 3.2SE->>Constellation Mini SE: SPDIF / COAX
     Note over Constellation Mini SE,Abbas Audio 3.2SE: Cable: <br> Power:
     Abbas Hermes->>Constellation Mini SE: SPDIF / COAX
     Note over Constellation Mini SE,Abbas Hermes: Cable: <br> Power: Abbas Cable
+    Holo May KTE->>Constellation Mini SE: USB (Titanis)
+    Note over Constellation Mini SE,Holo May KTE: Cable: Signal Lynx Ref USB2.0<br> Power: Ferrum Hypsos
     Lumin U1->>Abbas Audio 3.2SE: SPDIF / COAX
     Note over Abbas Audio 3.2SE,Lumin U1: Cable: <br> Power: Lumin external PSU
     Lumin U1->>Holo May KTE: AES / EBU
