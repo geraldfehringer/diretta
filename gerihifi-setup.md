@@ -1,9 +1,17 @@
-# DIRETTA - HiFi-Chain #1
+# DIGITAL - HiFi-Chain #1
 
-`Speaker:` `DeVore O96 Reference - complete rebuild with active Subwoofer (RobF)` \
+`Speaker:` `DeVore O96 Reference - complete rebuild with active Subwoofer (RobF)`
+
 `Speaker cable:` `Driade Flow Reference 808 Copper G / Inakustik LS2404-MK2`
 
-`LAN Chaining:` `Power of Ethernet <> OXCO <> Paul Pang Dual`
+`LAN Chaining:` `Devolo Powerline <> OXCO TeraTek<> Paul Pang Dual`
+
+## Streaming
+
+- **Primary APP: Roon, Roon ARC**
+- **Music Provider: Qobuz Studio**
+- **Podcasts: Spotify Premium**
+- **On-The-Road: Spotify, Soundcloud, Roon ARC, YT-Premium, Amazon PRIME Music**
 
 ## Digital Sources
 
