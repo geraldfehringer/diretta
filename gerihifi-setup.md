@@ -29,10 +29,12 @@ sequenceDiagram
     Note over Constellation Mini SE,Holo May KTE: Cable: Signal Lynx Ref USB2.0<br> Power: Ferrum Hypsos
     Abbas Audio 3.2SE->>Constellation Mini SE: SPDIF / COAX
     Note over Constellation Mini SE,Abbas Audio 3.2SE: Cable: <br> Power:
+    Abbas Hermes->>Constellation Mini SE: SPDIF / COAX
+    Note over Constellation Mini SE,Abbas Hermes: Cable: <br> Power: Abbas Cable
     Lumin U1->>Abbas Audio 3.2SE: SPDIF / COAX
-    Note over Abbas Audio 3.2SE,Lumin U1: Cable: <br> Power:
+    Note over Abbas Audio 3.2SE,Lumin U1: Cable: <br> Power: Lumin external PSU
     Lumin U1->>Holo May KTE: AES / EBU
-    Note over Holo May KTE,Lumin U1: Cable: <br> Power:
+    Note over Holo May KTE,Lumin U1: Cable: Driade Flow Ref 808 AES
     Constellation Mini SE->>SPEC RMP-UB1-KEX: Diretta Target (LAN-100Mbit/s)
     Note over SPEC RMP-UB1-KEX,Constellation Mini SE: Cable: <br> Power: Ferrum Hypsos
     activate SPEC RMP-UB1-KEX
