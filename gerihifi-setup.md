@@ -97,6 +97,7 @@ sequenceDiagram
 sequenceDiagram
     Soulution 725->>LinnenberG Monos: Analog / XLR
     Note over Soulution 725,LinnenberG Monos: Cable: Gutewire EON-Z XLR<br> Power: LessLoss DFPC Reference
+    Note over LinnenberG Monos,Soulution 725: Power: GigaWatt LC3-mK3
     Grimm Audio MU2->>Soulution 725: Analog / XLR
     Note over Grimm Audio MU2,Soulution 725: Cable: Driade Flow Ref 808 XLR<br> Power: The Essence Reference-II
     Sony XA50ES->>Soulution 725: Analog / RCA
