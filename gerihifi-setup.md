@@ -1,4 +1,4 @@
-![gerihifi](.img/gerihifi-setup-logo.png)
+![gerihifi](.img/gerihifi2-setup-logo.png)
 
 # Streaming
 
