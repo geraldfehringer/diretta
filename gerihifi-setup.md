@@ -51,7 +51,7 @@ sequenceDiagram
     Holo May KTE->>Constellation Mini SE: USB (Titanis)
     Note over Constellation Mini SE,Holo May KTE: Cable: Signal Lynx Ref USB2.0<br> Power: LessLoss DFPC Reference
     Lumin U1->>Abbas Audio 3.2SE: SPDIF / COAX
-    Note over Abbas Audio 3.2SE,Lumin U1: Cable: <br> Power: Lumin external PSU
+    Note over Abbas Audio 3.2SE,Lumin U1: Cable: Abbas digital<br> Power: Lumin external PSU
     Lumin U1->>Holo May KTE: Digital / AES-EBU
     Note over Holo May KTE,Lumin U1: Cable: Driade Flow Ref 808 AES
     Constellation Mini SE->>SPEC RMP-UB1-KEX: Diretta Target (LAN-100Mbit/s)
