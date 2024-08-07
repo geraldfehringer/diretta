@@ -1,7 +1,7 @@
 # DIRETTA - HiFi-Chain #1
 
 `Speaker:` `DeVore O96 Reference - complete rebuild with active Subwoofer (RobF)` \
-`Speaker cable:` `Driade Flow Reference 808 Copper G`
+`Speaker cable:` `Driade Flow Reference 808 Copper G / Inakustik LS2404-MK2`
 
 `LAN Chaining:` `Power of Ethernet <> OXCO <> Paul Pang Dual`
 
