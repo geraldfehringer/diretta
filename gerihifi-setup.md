@@ -1,6 +1,7 @@
 # DIRETTA - HiFi-Chain #1
 
-`Speaker:` `DeVore O96 Reference - complete rebuild with active Subwoofer (RobF)`
+`Speaker:` `DeVore O96 Reference - complete rebuild with active Subwoofer (RobF)` \
+`Speaker cable:` `Driade Flow Reference 808 Copper G`
 
 `LAN Chaining:` `Power of Ethernet <> OXCO <> Paul Pang Dual`
 
@@ -37,4 +38,18 @@ sequenceDiagram
     activate SPEC RMP-UB1-KEX
     SPEC RMP-UB1-KEX->>Constellation Mini SE: Diretta Host (LAN-100Mbit/s)
     deactivate SPEC RMP-UB1-KEX
+```
+
+---
+
+## Pre/AMP: Brinkmann Audio Marconi MK-II (Pre) / Brinkmann Stereo MK-II (AMP)
+
+```mermaid
+sequenceDiagram
+    Marconi MK-II->>Holo May KTE: Analog / XLR
+    Note over Marconi MK-II,Holo May KTE: Cable: Curious Cables XLR<br> Power: External Brinkmann
+    Stereo MK-II->>Marconi MK-II: Analog / RCA
+    Note over Marconi MK-II,Stereo MK-II: Cable: Driade Flow Ref 808<br> Power: Furutech Alpha OCC
+    Marconi MK-II->>Abbas Hermes: Analog / XLR
+    Note over Marconi MK-II,Abbas Hermes: Cable: <br> Power: Abbas Cable
 ```
