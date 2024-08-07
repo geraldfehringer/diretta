@@ -54,10 +54,10 @@ sequenceDiagram
     Note over Abbas Audio 3.2SE,Lumin U1: Cable: Abbas digital<br> Power: Lumin external PSU
     Lumin U1->>Holo May KTE: Digital / AES-EBU
     Note over Holo May KTE,Lumin U1: Cable: Driade Flow Ref 808 AES
-    Constellation Mini SE->>SPEC RMP-UB1-KEX: Diretta Target (LAN-100Mbit/s)
+    Constellation Mini SE->>SPEC RMP-UB1-KEX: Diretta Target (LAN-1Gbit/s)
     Note over SPEC RMP-UB1-KEX,Constellation Mini SE: Cable: LAN-1Gbits (IPv6) <br> Power: Ferrum Hypsos
     activate SPEC RMP-UB1-KEX
-    SPEC RMP-UB1-KEX->>Constellation Mini SE: Diretta Host (LAN-100Mbit/s)
+    SPEC RMP-UB1-KEX->>Constellation Mini SE: Diretta Host (LAN-1Gbit/s)
     deactivate SPEC RMP-UB1-KEX
 ```
 
