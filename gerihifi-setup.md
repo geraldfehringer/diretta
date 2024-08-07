@@ -30,6 +30,10 @@
 
 `LAN Chaining:` `Devolo Powerline <> OXCO TeraTek<> Paul Pang Dual`
 
+`Power Conditioner:` `AudioQuest Niagara 3000 (CD-Cyrus,CD-Sony,Abbas DAC,Constellation)`
+
+`Netzleiste:` `Cardas Audio Nautilus (der Rest)`
+
 ## AMP: Meishu Tonmeister 300b Silver Signature
 
 ```mermaid
@@ -46,7 +50,7 @@ sequenceDiagram
     Note over Constellation Mini SE,Holo May KTE: Cable: Signal Lynx Ref USB2.0<br> Power: LessLoss DFPC Reference
     Lumin U1->>Abbas Audio 3.2SE: SPDIF / COAX
     Note over Abbas Audio 3.2SE,Lumin U1: Cable: <br> Power: Lumin external PSU
-    Lumin U1->>Holo May KTE: AES / EBU
+    Lumin U1->>Holo May KTE: Digital / AES-EBU
     Note over Holo May KTE,Lumin U1: Cable: Driade Flow Ref 808 AES
     Constellation Mini SE->>SPEC RMP-UB1-KEX: Diretta Target (LAN-100Mbit/s)
     Note over SPEC RMP-UB1-KEX,Constellation Mini SE: Cable: <br> Power: Ferrum Hypsos
@@ -58,9 +62,6 @@ sequenceDiagram
 ---
 
 ## Pre/AMP: Brinkmann Audio Marconi MK-II (Pre) / Brinkmann Stereo MK-II (AMP)
-
-`Power Conditioner:` `AudioQuest Niagara 3000 (CD-Cyrus,CD-Sony,Abbas DAC,Constellation)` \
-`Netzleiste:` `Cardas Audio Nautilus (der Rest)`
 
 ```mermaid
 sequenceDiagram
@@ -82,20 +83,22 @@ sequenceDiagram
 
 `LAN Chaining:` `Devolo Powerline <> Paul Pang Quad`
 
+`Power Conditioner:` `Stromtank S-1000 (Monos,Grimm MU2,Soulution)`
+
+`Netzleiste:` `Cardas Audio Nautilus (CD-Player,PaulPang)`
+
 ---
 
-## Pre/AMP: Soulution 725 (Pre) / LinnenberG G.F.Händel Monos
-
-`Power Conditioner:` `Stromtank S-1000 (Monos,Grimm MU2,Soulution)` \
-`Netzleiste:` `Cardas Audio Nautilus (CD-Player,PaulPang)`
+## Pre/AMP: Soulution 725 (Pre) / LinnenberG G.F.Händel Monos (AMP)
 
 ```mermaid
 sequenceDiagram
     Soulution 725->>LinnenberG Monos: Analog / XLR
     Note over Soulution 725,LinnenberG Monos: Cable: Gutewire EON-Z XLR<br> Power: LessLoss DFPC Reference
-    Grimm Audio MU2->>Soulution 725: xx
-    Note over Grimm Audio MU2->>Soulution 725: Cable: <br> Power: The Essence Reference-II
-    Sony CDP->>Soulution 725: xx
+    Grimm Audio MU2->>Soulution 725: Analog / XLR
+    Note over Grimm Audio MU2,Soulution 725: Cable: Driade Flow Ref 808 XLR<br> Power: The Essence Reference-II
+    Sony XA50ES->>Soulution 725: Analog / RCA
+    Note over Soulution 725,Sony XA50ES: Cable: Swoboda RVI+100 WBT<br> Power: Swoboda Ref 2 150 Furutech gold
 ```
 
 ---
