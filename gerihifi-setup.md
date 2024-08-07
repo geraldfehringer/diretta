@@ -32,7 +32,7 @@
 
 `LAN Chaining:` `Devolo Powerline <> OXCO TeraTek<> Paul Pang Dual`
 
-`Power Conditioner:` `AudioQuest Niagara 3000 (CD-Cyrus,CD-Sony,Abbas DAC,Constellation)`
+`Power Conditioner:` `AudioQuest Niagara 3000 (AN 300B,CD-Cyrus,CD-Sony,Abbas DAC,Constellation)`
 
 `Netzleiste:` `Cardas Audio Nautilus (der Rest)`
 
