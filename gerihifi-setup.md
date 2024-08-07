@@ -10,7 +10,9 @@
 # Digital Sources
 
 - **Grimm Audio MU2 - Roon Core**
+  - Volume: fixed, through Soulution 725 Pre-AMP
 - **Lumin U1 Streamer - Roon Bridge**
+  - Volume: fixed, through AN 300B or Brinkmann Marconi Pre-AMP
 - **Pachanko Labs Constellation Mini SE - Roon/Diretta Host**
 - **SPEC RMP-UB1SFP-KEX - Roon/Diretta Target**
 - **Abbas Audio 3.2SE (TDA1541A) - DAC only**
