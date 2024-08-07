@@ -2,10 +2,10 @@
 
 # Streaming
 
-- **Primary APP: Roon, Roon ARC**
-- **Music Provider: Qobuz Studio**
-- **Podcasts: Spotify Premium**
-- **On-The-Road: Spotify, Soundcloud, Roon ARC, YT-Premium, Amazon PRIME Music**
+- **Primary APP:** Roon
+- **Music Provider:** Qobuz Studio
+- **Podcasts:** Spotify Premium
+- **On-The-Road:** Spotify, Soundcloud, Roon ARC, YT-Premium, Amazon PRIME Music
 
 # Digital Sources
 
@@ -18,7 +18,7 @@
 - **Holo Audio May KTE - DAC only**
 - **Sony CDP XA50ES Swoboda highest-modification - CD Player (internal DAC + SPDIF)**
 - **Sony CDP X505ES Swoboda full-modification - CD Player (internal DAC + TOSLINK)**
-- **Cyrus CDi with external PSU - CD Transport (Abbas DAC)**
+- **Cyrus CDi with external PSU - CD Transport (Abbas DAC + Holo May/SPDIF)**
 
 ---
 
@@ -39,11 +39,11 @@ sequenceDiagram
     AN Meishu TM 300B->>Abbas Audio 3.2SE: Analog / RCA
     Note over AN Meishu TM 300B,Abbas Audio 3.2SE: Cable: Luxman JPR-1500<br> Power: Abbas Cable
     Abbas Audio 3.2SE->>Constellation Mini SE: SPDIF / COAX
-    Note over Constellation Mini SE,Abbas Audio 3.2SE: Cable: <br> Power:
+    Note over Constellation Mini SE,Abbas Audio 3.2SE: Cable: Authentic Audio Image Meastro 2<br> Power: Ferrum Hypsos
     Abbas Hermes->>Constellation Mini SE: SPDIF / COAX
-    Note over Constellation Mini SE,Abbas Hermes: Cable: <br> Power: Abbas Cable
+    Note over Constellation Mini SE,Abbas Hermes: Cable: Signal Projects Hydra
     Holo May KTE->>Constellation Mini SE: USB (Titanis)
-    Note over Constellation Mini SE,Holo May KTE: Cable: Signal Lynx Ref USB2.0<br> Power: Ferrum Hypsos
+    Note over Constellation Mini SE,Holo May KTE: Cable: Signal Lynx Ref USB2.0<br> Power: LessLoss DFPC Reference
     Lumin U1->>Abbas Audio 3.2SE: SPDIF / COAX
     Note over Abbas Audio 3.2SE,Lumin U1: Cable: <br> Power: Lumin external PSU
     Lumin U1->>Holo May KTE: AES / EBU
@@ -58,6 +58,9 @@ sequenceDiagram
 ---
 
 ## Pre/AMP: Brinkmann Audio Marconi MK-II (Pre) / Brinkmann Stereo MK-II (AMP)
+
+`Power Conditioner:` `AudioQuest Niagara 3000 (CD-Cyrus,CD-Sony,Abbas DAC,Constellation)` \
+`Netzleiste:` `Cardas Audio Nautilus (der Rest)`
 
 ```mermaid
 sequenceDiagram
@@ -83,11 +86,15 @@ sequenceDiagram
 
 ## Pre/AMP: Soulution 725 (Pre) / LinnenberG G.F.Händel Monos
 
+`Power Conditioner:` `Stromtank S-1000 (Monos,Grimm MU2,Soulution)` \
+`Netzleiste:` `Cardas Audio Nautilus (CD-Player,PaulPang)`
+
 ```mermaid
 sequenceDiagram
     Soulution 725->>LinnenberG Monos: Analog / XLR
-    Note over Soulution 725,LinnenberG Monos: Cable: Solution<br> Power:
+    Note over Soulution 725,LinnenberG Monos: Cable: Gutewire EON-Z XLR<br> Power: LessLoss DFPC Reference
     Grimm Audio MU2->>Soulution 725: xx
+    Note over Grimm Audio MU2->>Soulution 725: Cable: <br> Power: The Essence Reference-II
     Sony CDP->>Soulution 725: xx
 ```
 
