@@ -4,16 +4,28 @@
 
 `LAN Chaining:` `Power of Ethernet <> OXCO <> Paul Pang Dual`
 
+## Digital Sources
+
+- **Grimm Audio MU2 - Roon Core**
+- **Lumin U1 Streamer - Roon Bridge**
+- **Pachanko Labs Constellation Mini SE - Roon/Diretta Host**
+- **SPEC RMP-UB1SFP-KEX - Roon/Diretta Target**
+- **Abbas Audio 3.2SE (TDA1541A) - DAC only**
+- **Abbas Audio Hermes Sig (PCM63P-K) - DAC only**
+- **Holo Audio May KTE - DAC only**
+- **Sony CDP X505ES Swoboda full-modification - CD Player (internal DAC)**
+- **Cyrus CDi with external PSU - CD Transport (Abbas DAC)**
+
 ## AMP: Meishu Tonmeister 300b Silver Signature
 
 ```mermaid
 sequenceDiagram
     AN Meishu TM 300B->>Holo May KTE: Analog / RCA
-    Note over AN Meishu TM 300B,Holo May KTE: Cable: <br> Power: GigaWatt
+    Note over AN Meishu TM 300B,Holo May KTE: Cable: Audiomica Red Ref Rhod Lux<br> Power: GigaWatt LS-1 Mk3+
     AN Meishu TM 300B->>Abbas Audio 3.2SE: Analog / RCA
-    Note over AN Meishu TM 300B,Abbas Audio 3.2SE: Cable: <br> Power: GigaWatt
+    Note over AN Meishu TM 300B,Abbas Audio 3.2SE: Cable: Luxman JPR-1500<br> Power: Abbas Cable
     Holo May KTE->>Constellation Mini SE: USB (Titanis)
-    Note over Constellation Mini SE,Holo May KTE: Cable: <br> Power: GigaWatt
+    Note over Constellation Mini SE,Holo May KTE: Cable: Signal Lynx Ref USB2.0<br> Power: Ferrum Hypsos
     Abbas Audio 3.2SE->>Constellation Mini SE: SPDIF / COAX
     Note over Constellation Mini SE,Abbas Audio 3.2SE: Cable: <br> Power:
     Lumin U1->>Abbas Audio 3.2SE: SPDIF / COAX
