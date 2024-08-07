@@ -6,4 +6,5 @@ All about my digital & diretta audio protocol journey!
 ## research
 
 - https://help.diretta.link/support/home
+- https://patatorz.com/forum/topic/target-diretta-les-designs-officiels/
 
