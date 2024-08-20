@@ -1,5 +1,7 @@
 ![gerihifi](.img/gerihifi2-setup-logo.png)
 
+`Last update:`  `Aug 7th`
+
 # Streaming
 
 - **Primary APP:** Roon
