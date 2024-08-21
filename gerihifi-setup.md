@@ -32,6 +32,8 @@
 
 `Speaker cable:` `Driade Flow Reference 808 Copper G 3m / Inakustik LS2404-MK2 3m`
 
+`Speaker spikes:` `DIY wood-stand, marble slap and with basotec foam pads under speaker and slap`
+
 `LAN Chaining:` `Devolo Powerline <> OXCO TeraTek<> Paul Pang Dual`
 
 `Power Conditioner:` `AudioQuest Niagara 3000 (AN 300B,CD-Cyrus,CD-Sony,Abbas DAC,Constellation)`
@@ -84,6 +86,8 @@ sequenceDiagram
 `Speaker:` `ELAC Concentro S507 (v1)`
 
 `Speaker cable:` `Inakustik LS2404-MK2 Bi-Wire to Single-Wire 4m`
+
+`Speaker spikes:` `Stackaudio Auva 100 with felt pads`
 
 `LAN Chaining:` `Devolo Powerline <> Paul Pang Quad`
 
